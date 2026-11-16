@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perjalanan 5000 tahun sejarah matematika dan peradaban dunia">
+  <meta name="theme-color" content="#6c5ce7">
+  <title>Sejarah Matematika dan sejarah dunia &amp; Dunia — Perjalanan 5000 Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a class="logo" href="#home" aria-label="Beranda">∑ Sejarah dunia dan matematika</a>
+      <ul class="nav-links">
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#dunia">Sejarah Dunia</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#artikel">Ensiklopedia</a></li>
+        <li><a href="#quiz">Kuis</a></li>
+        <li><a href="#musik">Musik</a></li>
+      </ul>
+      <button id="themeToggle" class="icon-btn" aria-label="Ganti tema" title="Ganti tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div id="symbols" aria-hidden="true"></div>
+      <p class="hero-badge">✦ PERJALANAN 5000 TAHUN ✦</p>
+      <h1 id="hero-title">Sejarah <span>Matematika</span> &amp;<br>Peradaban Dunia</h1>
+      <p class="hero-lead">
+        Telusuri bagaimana manusia mengubah hitungan sederhana menjadi bahasa universal
+        yang menggerakkan sains, teknologi, dan peradaban modern.
+      </p>
+      <a href="#timeline" class="btn">Jelajahi Timeline ↓</a>
+    </section>
+
+    <!-- ============ STATISTIK ============ -->
+    <section class="stats" aria-label="Statistik">
+      <div class="stat"><b data-count="5000">0</b><small>TAHUN SEJARAH</small></div>
+      <div class="stat"><b data-count="12">0</b><small>PERISTIWA MATEMATIKA</small></div>
+      <div class="stat"><b data-count="10">0</b><small>PERISTIWA DUNIA</small></div>
+      <div class="stat"><b data-count="5">0</b><small>SOAL KUIS</small></div>
+    </section>
+
+    <!-- ============ TIMELINE MATEMATIKA ============ -->
+    <section id="timeline" aria-labelledby="timeline-title">
+      <header class="section-title">
+        <h2 id="timeline-title">Timeline Matematika</h2>
+        <p>Klik setiap kartu untuk melihat fakta menariknya 👆</p>
+      </header>
+      <div id="timelineContainer" class="timeline"></div>
+    </section>
+
+    <!-- ============ SEJARAH DUNIA ============ -->
+    <section id="dunia" aria-labelledby="dunia-title">
+      <header class="section-title">
+        <h2 id="dunia-title">Sejarah Dunia</h2>
+        <p>Peristiwa besar yang membentuk peradaban manusia</p>
+      </header>
+      <div id="worldGrid" class="world-grid"></div>
+    </section>
+
+    <!-- ============ VIDEO SEJARAH ============ -->
+    <section id="video" aria-labelledby="video-title">
+      <header class="section-title">
+        <h2 id="video-title">🎬 Catatan Sejarah</h2>
+        <p>video sejarah matematika dan sejarah dunia </p>
+      </header>
+      
+      <div class="video-grid">
+        <!-- Video Matematika -->
+        <article class="video-card">
+          <h3>Penemu angka nol adalah matematikawan India bernama Brahmagupta, yang hidup pada abad ke-7 Masehi (sekitar tahun 598–668 M). Ia adalah orang pertama yang menetapkan aturan penggunaan angka nol dalam operasi matematika seperti penjumlahan dan pengurangan.
+Dalam karyanya yang berjudul Brahmasphutasiddhanta (ditulis tahun 628 M), Brahmagupta:
+Menyebutkan simbol nol sebagai “shunya” (yang berarti kosong).
+Menjelaskan aturan matematika menggunakan nol, seperti:
+Namun, konsep nol sebagai angka dan posisi desimal berkembang secara bertahap. Sistem bilangan posisi desimal yang kita gunakan sekarang juga berkembang lebih lanjut di dunia Islam dan kemudian dibawa ke Eropa melalui karya-karya ilmuwan Muslim seperti Al-Khwarizmi.
+Jadi, meski konsep kekosongan telah dikenal di berbagai peradaban (misalnya oleh bangsa Maya dan Babilonia), penggunaan angka nol secara matematis seperti sekarang dimulai dari India melalui Brahmagupta.</h3>
+          <div class="video-container">
+            <!-- GANTI DENGAN FILE VIDEO KAMU -->
+            <video controls poster="thumb-math.jpg">
+              <source src="video-matematika.mp4" type="video/mp4">
+              Browser tidak mendukung video ini.
+            </video>
+          </div>
+        </article>
+
+        <!-- Video Sejarah Dunia -->
+        <article class="video-card">
+          <h3>Sejarah Dunia ilmuan penemuan penemuan nya</h3>
+          <div class="video-container">
+            <!-- GANTI DENGAN FILE VIDEO KAMU -->
+            <video controls poster="thumb-dunia.jpg">
+              <source src="video-dunia.mp4" type="video/mp4">
+              Browser tidak mendukung video ini.
+            </video>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ARTIKEL SEJARAH LENGKAP ============ -->
+    <section id="artikel" aria-labelledby="artikel-title">
+      <header class="section-title">
+        <h2 id="artikel-title">📖 Ensiklopedia Sejarah</h2>
+        <p>Baca penjelasan lengkap perjalanan Matematika & Dunia</p>
+      </header>
+      <div id="articleContainer" class="article-container"></div>
+    </section>
+
+    <!-- ============ QUIZ ============ -->
+    <section id="quiz" aria-labelledby="quiz-title">
+      <header class="section-title">
+        <h2 id="quiz-title">Uji Pengetahuanmu</h2>
+        <p>5 soal singkat tentang sejarah matematika &amp; dunia</p>
+      </header>
+      <div id="quizBox" class="quiz-box"></div>
+    </section>
+
+    <!-- ============ MUSIK ============ -->
+    <section id="musik" aria-labelledby="musik-title">
+      <header class="section-title">
+        <h2 id="musik-title">🎵 Musik Pengiring</h2>
+        <p>Nikmati alunan musik sejarah</p>
+      </header>
+
+      <div id="musicPlayer" class="music-player">
+        <figure class="music-cover" id="musicCover" aria-hidden="true"></figure>
+        <div class="music-main">
+          <header class="music-info">
+            <h3 id="trackTitle">ains bas la vida </h3>
+            <p id="trackArtist">Artis vootrad </p>
+          </header>
+
+          <div class="music-progress-wrap">
+            <time id="currentTime">0:00</time>
+            <progress id="progressNative" class="music-progress" value="0" max="100">0%</progress>
+            <time id="durationTime">0:00</time>
+          </div>
+
+          <div class="music-controls">
+            <button id="prevBtn" class="icon-btn" aria-label="Sebelumnya"></button>
+            <button id="playBtn" class="play-btn" aria-label="Putar"></button>
+            <button id="nextBtn" class="icon-btn" aria-label="Berikutnya"></button>
+            <div class="volume-wrap">
+              <span id="volIcon" aria-hidden="true"></span>
+              <input type="range" id="volumeSlider" min="0" max="100" value="70" aria-label="Volume">
+            </div>
+          </div>
+
+          <div id="trackList" class="track-list" role="list"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="social-links">
+      <!-- Ikon Instagram -->
+      <a href="https://instagram.com/miiiajaa12" target="_blank" aria-label="Instagram" title="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
+      
+      <!-- Ikon TikTok -->
+      <a href="https://tiktok.com/@jagoan123wkwjwj" target="_blank" aria-label="TikTok" title="TikTok">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+        </svg>
+      </a>
+    </div>
+    
+    <p>Dibuat dengan <b>fahmigodigital</b> &middot; <b>CSS3</b> &middot; <b>JavaScript ES2026</b> — Sejarah Matematika &amp; Dunia &copy; 2026</p>
+  </footer>
+
+  <!-- ============ TEMPLATES ============ -->
+  <template id="tpl-timeline">
+    <article class="t-item reveal">
+      <details class="t-card">
+        <summary>
+          <header class="t-head">
+            <time class="t-year"></time>
+            <span class="t-icon" aria-hidden="true"></span>
+          </header>
+          <h3 class="t-title"></h3>
+          <p class="t-desc"></p>
+          <mark class="t-hint">Fakta menarik ▾</mark>
+        </summary>
+        <div class="t-fact"><p></p></div>
+      </details>
+    </article>
+  </template>
+
+  <template id="tpl-world">
+    <article class="world-card reveal">
+      <header>
+        <mark class="wc-region"></mark>
+        <span class="wc-icon" aria-hidden="true"></span>
+      </header>
+      <time class="wc-year"></time>
+      <h3 class="wc-title"></h3>
+      <p class="wc-desc"></p>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
